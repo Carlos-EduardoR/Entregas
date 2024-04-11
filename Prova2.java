@@ -43,15 +43,16 @@ public class Prova2 {
 			
 			System.out.println("Número de jogadores com menos de 18 anos é " + qtd);
 			
-			mediaAltura = (alt /55);
+			mediaAltura = (alt /11);
 			
 			System.out.printf("A média da altura dos jogadores é %.2f%n", mediaAltura);
 			
-			porc = (tot80 / 55) * 100;
-			
-			System.out.printf("Porcentagem de jogadores acima de 80kg: %.2f%%%n", porc);
-			
+			contTime ++;
 		}
+		porc = (tot80 / 55) * 100;
+		
+		System.out.printf("Porcentagem de jogadores acima de 80kg: %.2f%%%n", porc);
+		
 		sc.close();
 
 	}
