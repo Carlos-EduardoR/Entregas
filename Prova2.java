@@ -37,7 +37,6 @@ public class Prova2 {
 				contJog ++;
 			}
 			
-			mediaIdade /= 11;
 			
 			System.out.printf("A idade média é %.2f%n", mediaIdade);
 			
